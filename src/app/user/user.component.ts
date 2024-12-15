@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { RegistrationComponent } from './registration/registration.component';
 
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [RegistrationComponent],
   templateUrl: './user.component.html',
-  styles: ``
+  styles: ``,
 })
-export class UserComponent {
-
-}
+export class UserComponent {}
