@@ -10,5 +10,5 @@ import { UserComponent } from './user/user.component';
   styles: [],
 })
 export class AppComponent {
-  title = 'Leave Management App';
+  title = 'HR Management App';
 }

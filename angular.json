@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LeaveManagementApp": {
+    "HRManagementApp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,7 +39,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/leave-management-app",
+            "outputPath": "dist/hr-management-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "LeaveManagementApp:build:production"
+              "buildTarget": "HRManagementApp:build:production"
             },
             "development": {
-              "buildTarget": "LeaveManagementApp:build:development"
+              "buildTarget": "HRManagementApp:build:development"
             }
           },
           "defaultConfiguration": "development"
