@@ -12,5 +12,11 @@
 }
 body {
   font-family: "roboto-regular";
-  background-color: azure;
+  background-color: whitesmoke;
+}
+.error-feedback {
+  font-size: 0.9rem;
+  color: crimson;
+  margin: 0.3rem !important;
+  margin-top: 0.1rem !important;
 }
